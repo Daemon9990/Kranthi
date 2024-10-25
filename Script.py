@@ -19,11 +19,11 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/BujjiUpdate'>Bujji Father</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='t.me/Jonsnowxbot'>Daemon</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://VPS.com'>VPS</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://bujji.com'>Bujji</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
@@ -704,11 +704,11 @@ special Thanks To ❤️ Developers -
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/Daemon9990'>Daemon</a>
 
--Dev 2 <a href='https://t.me/vjbots_bot'>Kranthi</a>
+-Dev 2 <a href=''>Kranthi</a>
 
--Dev 3 <a href='https://t.me/vj_botz>Billy</a>
+-Dev 3 <a href=''>Billy</a>
 
-- Dev 4 <a href='https://t.me/vj_bots'>Lakshman</a>
+- Dev 4 <a href=''>Lakshman</a>
 """
 
     RENAME_TXT = """
