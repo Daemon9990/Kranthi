@@ -1091,9 +1091,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
     elif query.data == "buy_premium":
         btn = [[            
-            InlineKeyboardButton("✅sᴇɴᴅ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ ʜᴇʀᴇ✅", user_id=admin)
+            InlineKeyboardButton("✅sᴇɴᴅ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ʀᴇᴄᴇɪᴘᴛ ʜᴇʀᴇ✅", url=f"https://t.me/jonsnowxbot")
         ]
-            for admin in ADMINS
+          
         ]
         btn.append(
             [InlineKeyboardButton("⚠️ᴄʟᴏsᴇ / ᴅᴇʟᴇᴛᴇ⚠️", callback_data="close_data")]
@@ -1955,13 +1955,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+            
             ],[
-                InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('🎉Refer', callback_data='subscription'),
                 InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
             ],[
-                InlineKeyboardButton('💳 Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
+                InlineKeyboardButton(" 💳 ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅs 💳", callback_data="buy_premium")
             ],[
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
             ]]
