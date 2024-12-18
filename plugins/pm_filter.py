@@ -1081,11 +1081,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         free_trial_status = await db.get_free_trial_status(user_id)
         if not free_trial_status:            
             await db.give_free_trail(user_id)
-            new_text = "**ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ꜰʀᴇᴇ ᴛʀᴀɪʟ ꜰᴏʀ 5 ᴍɪɴᴜᴛᴇs ꜰʀᴏᴍ ɴᴏᴡ 😀\n\nआप अब से 5 मिनट के लिए निःशुल्क ट्रायल का उपयोग कर सकते हैं 😀**"        
+            new_text = "**ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ꜰʀᴇᴇ ᴛʀᴀɪʟ ꜰᴏʀ 5 ᴍɪɴᴜᴛᴇs ꜰʀᴏᴍ ɴᴏᴡ 😀\n\nమీరు ఇప్పుడు 5 నిమిషాల ఉచిత ట్రయల్‌ను ఉపయోగించవచ్చు 😀**"        
             await query.message.edit_text(text=new_text)
             return
         else:
-            new_text= "**🤣 you already used free now no more free trail. please buy subscription here are our 👉 /plans**"
+            new_text= "**🤣 you already used free now no more free trail. please buy subscription here are our 👉 /plan \n\n🤣 మీరు ఇప్పటికే ఉచితంగా ఉపయోగించారు, ఇకపై ఉచిత ట్రయల్ లేదు. దయచేసి సబ్‌స్క్రిప్షన్ కొనండి, మా 👉 /plan**"
             await query.message.edit_text(text=new_text)
             return
             
