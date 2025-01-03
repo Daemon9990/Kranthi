@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'BujjiXBot')
 API_ID = int(environ.get('API_ID', '24830912'))
 API_HASH = environ.get('API_HASH', 'a1a1775593531b90850b8b82e3b14940')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7369053103:AAEhHcmJXGj5IYj1GAJcod3VTTykL2hCJAw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7369053103:AAF-AfjWFvqGIisCddJ-XxAhsTfSDKxTk40")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
