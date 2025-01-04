@@ -97,12 +97,12 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
 VERIFY = bool(environ.get('VERIFY', True))
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'offerlinks.in')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'bc0981cac6b5f8f52af0a5218518eef4e4f34b46')
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://linkshortify.com')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '1f2f26978b2ba8a9283e4837acbdc2fba7edbe87')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'offerlinks.in')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'bc0981cac6b5f8f52af0a5218518eef4e4f34b46')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/Howtodownload18/14')
 
 # Shortlink Info
