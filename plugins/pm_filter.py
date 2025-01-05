@@ -2079,7 +2079,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Instagram', url="https://www.instagram.com/invites/contact/?igsh=18lizqn1iu2lc&utm_content=wb1pfsw")
+            InlineKeyboardButton('Instagram', url="https://www.instagram.com/multiverse__editz/profilecard/?igsh=aW9pdmdyaHRjOGx4")
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
