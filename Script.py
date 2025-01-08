@@ -228,9 +228,11 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_caption}
+    CAPTION = """ 📂 <i><a href="https://t.me/MULTIVERSE_UPDATES">{file_caption}</a>
 
-<b> Size ⚙️: {file_size}</b>""" 
+<i> Size ⚙️: {file_size}
+
+ JOIN: [𝗠𝗨𝗟𝗧𝗜𝗩𝗘𝗥𝗦𝗘™](https://t.me/MULTIVERSE_OFCL)</i>\n\n""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
